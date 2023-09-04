@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music Player</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+  <!-- header or navbar section  -->
+  <nav>
+    <input type="checkbox" name="" id="search">
+    <input type="checkbox" name="" id="nav-list">
+    <div class="logo d-flex">
+      <img src="./images/music icon logo-fotor-20230808181848.png" alt="">
+      <p><span id="music">Music</span> <br> <span id="studio">Studio</span></p>
+    </div>
+    <div class="search">
+      <i class="fa-solid fa-magnifying-glass"></i>
+      <input type="search" placeholder="Search">
+      <i class="fa-solid fa-microphone"></i>
+    </div>
+    <ul class="d-flex nav-list">
+      <li><i class="fa-solid fa-bell"></i></li>
+      <li><img src="./images/megan-fox-beauty-tips.jpg" alt="" id="profile"></li>
+    </ul>
+    <div class="label">
+      <label for="search"><i class="fa-solid fa-magnifying-glass"></i></label>
+      <label for="nav-list"><i class="fa-solid fa-bars"></i></label>
+    </div>
+  </nav>
+<!-- container for main and aside  -->
+<div class="container">
+  <!-- main section  -->
+  <main>
+    <div id="main-section">
+      <!-- carousel section  -->
+      <div class="coldplay d-flex">
+        <div class="coldimg"></div>
+        <div class="colddesc">
+            <div class="coldhead d-flex"><div class="coldtitle"><h3>Cold Play</h3><p>British Band</p></div> <span>851 Followers</span>
+        </div>
+        <div class="description">
+            <p>Coldplay is a British music band that has enjoyed continuous success since their inception in 1996 thorugh their intelligent and soulful songs. The band members are Chris Martin (lead vocals), Jonny Buckland (lead guitar), Guy Berryman (bass guitar) and Will Champion (drums).</p>
+        </div>
+        <div class="follow"><button>Play All</button> <span>Follow</span></div>
+           <p>247 Tracks | 128 Albums</p>
+        </div>
+      </div>
+      
+      <div class="songsdiv" >
+        <ul class="songs-list d-flex">
+            <li>
+              <div class="songs">
+                <i class="fa-solid fa-ellipsis-vertical"></i>
+                <div class="songimg"><img src="./images/as-it-was.jpg" alt=""> <div class="shadow4"><i class="fa-solid fa-play"></i></div></div>
+                <div class="songtitle"><p>As it was</p> <p>Harry Styles</p></div>
+              </div>
+              <div class="ii">
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-plus"></i>
+              </div>
+             
+            </li>
+            <li>
+              <div class="songs">
+                <i class="fa-solid fa-ellipsis-vertical"></i>
+                <div class="songimg"><img src="./images/baby.jpg" alt=""> <div class="shadow4"><i class="fa-solid fa-play"></i></div></div>
+                <div class="songtitle"><p>Baby</p> <p>Justin Bieber</p></div>
+              </div>
+               <div class="ii">
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-plus"></i>
+              </div>
+            </li>
+            <li>
+              <div class="songs">
+                <i class="fa-solid fa-ellipsis-vertical"></i>
+                <div class="songimg"><img src="./images/bad-guy.jpg" alt=""> <div class="shadow4"><i class="fa-solid fa-play"></i></div></div>
+                <div class="songtitle"><p>Bad guy</p> <p>Billie Eilish</p></div>
+              </div>
+               <div class="ii">
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-plus"></i>
+              </div>
+            </li>
+            <li>
+              <div class="songs">
+                <i class="fa-solid fa-ellipsis-vertical"></i>
+                <div class="songimg"><img src="./images/beliver.jpg" alt=""> <div class="shadow4"><i class="fa-solid fa-play"></i></div></div>
+                <div class="songtitle"><p>Beliver</p> <p>Daniel Coulter Reynolds</p></div>
+              </div>
+               <div class="ii">
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-plus"></i>
+              </div>
+            </li>
+            <li>
+              <div class="songs">
+                <i class="fa-solid fa-ellipsis-vertical"></i>
+                <div class="songimg"><img src="./images/friends.jpg" alt=""> <div class="shadow4"><i class="fa-solid fa-play"></i></div></div>
+                <div class="songtitle"><p>Friends</p> <p>Anne-Marie</p></div>
+              </div>
+               <div class="ii">
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-plus"></i>
+              </div>
+            </li>
+            <li>
+              <div class="songs">
+                <i class="fa-solid fa-ellipsis-vertical"></i>
+                <div class="songimg"><img src="./images/Gadar-2.jpg" alt=""> <div class="shadow4"><i class="fa-solid fa-play"></i></div></div>
+                <div class="songtitle"><p>Gadar-2</p> <p>Udit Narayana</p></div>
+              </div>
+               <div class="ii">
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-plus"></i>
+              </div>
+            </li>
+            <li>
+              <div class="songs">
+                <i class="fa-solid fa-ellipsis-vertical"></i>
+                <div class="songimg"><img src="./images/ignite.jpg" alt=""> <div class="shadow4"><i class="fa-solid fa-play"></i></div></div>
+                <div class="songtitle"><p>Ignite</p> <p>Alan Walker, Julie Bergan, K-391</p></div>
+              </div>
+               <div class="ii">
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-plus"></i>
+              </div>
+            </li>
+            <li>
+              <div class="songs">
+                <i class="fa-solid fa-ellipsis-vertical"></i>
+                <div class="songimg"><img src="./images/inifnity.jpg" alt=""> <div class="shadow4"><i class="fa-solid fa-play"></i></div></div>
+                <div class="songtitle"><p>Infinity</p> <p>Jaymes Young</p></div>
+              </div>
+               <div class="ii">
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-plus"></i>
+              </div>
+            </li>
+            <li>
+              <div class="songs">
+                <i class="fa-solid fa-ellipsis-vertical"></i>
+                <div class="songimg"><img src="./images/Intentions.jpg" alt=""> <div class="shadow4"><i class="fa-solid fa-play"></i></div></div>
+                <div class="songtitle"><p>Intentions</p> <p>Justin Bieber</p></div>
+              </div>
+               <div class="ii">
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-plus"></i>
+              </div>
+            </li>
+            <li>
+              <div class="songs">
+                <i class="fa-solid fa-ellipsis-vertical"></i>
+                <div class="songimg"><img src="./images/let_me_down.jpg" alt=""> <div class="shadow4"><i class="fa-solid fa-play"></i></div></div>
+                <div class="songtitle"><p>Let me down</p> <p>Alec Benjamin</p></div>
+              </div>
+               <div class="ii">
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-plus"></i>
+              </div>
+            </li>
+            <li>
+              <div class="songs">
+                <i class="fa-solid fa-ellipsis-vertical"></i>
+                <div class="songimg"><img src="./images/Mahiye-Jinna-Sohna.jpg" alt=""> <div class="shadow4"><i class="fa-solid fa-play"></i></div></div>
+                <div class="songtitle"><p>Mahiye Jinna Sohna</p> <p>Darshan Raval</p></div>
+              </div>
+               <div class="ii">
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-plus"></i>
+              </div>
+            </li>
+            <li>
+              <div class="songs">
+                <i class="fa-solid fa-ellipsis-vertical"></i>
+                <div class="songimg"><img src="./images/man-meri-jaan.jpg" alt=""> <div class="shadow4"><i class="fa-solid fa-play"></i></div></div>
+                <div class="songtitle"><p>Man meri jaan</p> <p>King</p></div>
+              </div>
+               <div class="ii">
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-plus"></i>
+              </div>
+            </li>
+            <li>
+              <div class="songs">
+                <i class="fa-solid fa-ellipsis-vertical"></i>
+                <div class="songimg"><img src="./images/OMG-2.jpg" alt=""> <div class="shadow4"><i class="fa-solid fa-play"></i></div></div>
+                <div class="songtitle"><p>OMG-2</p> <p>Hansraj Raghuwanshi</p></div>
+              </div>
+               <div class="ii">
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-plus"></i>
+              </div>
+            </li>
+            <li>
+              <div class="songs">
+                <i class="fa-solid fa-ellipsis-vertical"></i>
+                <div class="songimg"><img src="./images/onism.jpg" alt=""> <div class="shadow4"><i class="fa-solid fa-play"></i></div></div>
+                <div class="songtitle"><p>Onism</p> <p>Alan Walker</p></div>
+              </div>
+               <div class="ii">
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-plus"></i>
+              </div>
+            </li>
+            <li>
+              <div class="songs">
+                <i class="fa-solid fa-ellipsis-vertical"></i>
+                <div class="songimg"><img src="./images/perfect.jpg" alt=""> <div class="shadow4"><i class="fa-solid fa-play"></i></div></div>
+                <div class="songtitle"><p>Perfect</p> <p>Ed Sheeran</p></div>
+              </div>
+               <div class="ii">
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-plus"></i>
+              </div>
+            </li>
+          </ul>
+      </div>
+    </div>
+  </main>
+  <!-- aside section  -->
+  <aside>
+    <div id="aside-section">
+      <!-- queue header  -->
+      <!-- latest release  -->
+      <div class="release d-flex">
+        <div class="d-flex queue">
+            <span>Similar Artists</span>
+            <div class="queue-list">View All</div>
+          </div>
+        <!-- grid-section  -->
+        <div class="grid-section">
+          <div class="grid d-flex">
+            <div class="onism"><img src="./images/onism.jpg" alt=""> <div class="shadow d-flex"><i class="fa-solid fa-play"></i></div></div>
+            <div class="onititle"><p>Onism</p> <p>AUG 11,2017</p></div>
+            <div class="dot3"><p><i class="fa-solid fa-ellipsis"></i></p> <p>4:44</p></div>
+          </div>
+          <div class="grid d-flex">
+            <div class="onism"><img src="./images/onism.jpg" alt=""> <div class="shadow d-flex"><i class="fa-solid fa-play"></i></div></div>
+            <div class="onititle"><p>Onism</p> <p>AUG 11,2017</p></div>
+            <div class="dot3"><p><i class="fa-solid fa-ellipsis"></i></p> <p>4:44</p></div>
+          </div>
+          <div class="grid d-flex">
+            <div class="onism"><img src="./images/onism.jpg" alt=""> <div class="shadow d-flex"><i class="fa-solid fa-play"></i></div></div>
+            <div class="onititle"><p>Onism</p> <p>AUG 11,2017</p></div>
+            <div class="dot3"><p><i class="fa-solid fa-ellipsis"></i></p> <p>4:44</p></div>
+          </div>
+        </div>
+        </div>
+
+        <!-- songs lists again  -->
+        <div class="release d-flex">
+            <div class="d-flex queue">
+                <span>Recently Played</span>
+                <div class="queue-list">View All</div>
+              </div>
+            <!-- songs-section  -->
+            <ul class="songs-list d-flex">
+                <li>
+                  <div class="songs">
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                    <div class="songimg"><img src="./images/as-it-was.jpg" alt=""> <div class="shadow4"><i class="fa-solid fa-play"></i></div></div>
+                    <div class="songtitle"><p>As it was</p> <p>Harry Styles</p></div>
+                  </div>
+                  <i class="fa-regular fa-heart"></i>
+                </li>
+                <li>
+                  <div class="songs">
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                    <div class="songimg"><img src="./images/baby.jpg" alt=""> <div class="shadow4"><i class="fa-solid fa-play"></i></div></div>
+                    <div class="songtitle"><p>Baby</p> <p>Justin Bieber</p></div>
+                  </div>
+                  <i class="fa-regular fa-heart"></i>
+                </li>
+                <li>
+                  <div class="songs">
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                    <div class="songimg"><img src="./images/bad-guy.jpg" alt=""> <div class="shadow4"><i class="fa-solid fa-play"></i></div></div>
+                    <div class="songtitle"><p>Bad guy</p> <p>Billie Eilish</p></div>
+                  </div>
+                  <i class="fa-regular fa-heart"></i>
+                </li>
+                <li>
+                  <div class="songs">
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                    <div class="songimg"><img src="./images/beliver.jpg" alt=""> <div class="shadow4"><i class="fa-solid fa-play"></i></div></div>
+                    <div class="songtitle"><p>Beliver</p> <p>Daniel Coulter Reynolds</p></div>
+                  </div>
+                  <i class="fa-regular fa-heart"></i>
+                </li>
+                <li>
+                  <div class="songs">
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                    <div class="songimg"><img src="./images/friends.jpg" alt=""> <div class="shadow4"><i class="fa-solid fa-play"></i></div></div>
+                    <div class="songtitle"><p>Friends</p> <p>Anne-Marie</p></div>
+                  </div>
+                  <i class="fa-regular fa-heart"></i>
+                </li>
+                <li>
+                  <div class="songs">
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                    <div class="songimg"><img src="./images/Gadar-2.jpg" alt=""> <div class="shadow4"><i class="fa-solid fa-play"></i></div></div>
+                    <div class="songtitle"><p>Gadar-2</p> <p>Udit Narayana</p></div>
+                  </div>
+                  <i class="fa-regular fa-heart"></i>
+                </li>
+                <li>
+                  <div class="songs">
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                    <div class="songimg"><img src="./images/ignite.jpg" alt=""> <div class="shadow4"><i class="fa-solid fa-play"></i></div></div>
+                    <div class="songtitle"><p>Ignite</p> <p>Alan Walker, Julie Bergan, K-391</p></div>
+                  </div>
+                  <i class="fa-regular fa-heart"></i>
+                </li>
+                <li>
+                  <div class="songs">
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                    <div class="songimg"><img src="./images/inifnity.jpg" alt=""> <div class="shadow4"><i class="fa-solid fa-play"></i></div></div>
+                    <div class="songtitle"><p>Infinity</p> <p>Jaymes Young</p></div>
+                  </div>
+                  <i class="fa-regular fa-heart"></i>
+                </li>
+                <li>
+                  <div class="songs">
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                    <div class="songimg"><img src="./images/Intentions.jpg" alt=""> <div class="shadow4"><i class="fa-solid fa-play"></i></div></div>
+                    <div class="songtitle"><p>Intentions</p> <p>Justin Bieber</p></div>
+                  </div>
+                  <i class="fa-regular fa-heart"></i>
+                </li>
+                <li>
+                  <div class="songs">
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                    <div class="songimg"><img src="./images/let_me_down.jpg" alt=""> <div class="shadow4"><i class="fa-solid fa-play"></i></div></div>
+                    <div class="songtitle"><p>Let me down</p> <p>Alec Benjamin</p></div>
+                  </div>
+                  <i class="fa-regular fa-heart"></i>
+                </li>
+                <li>
+                  <div class="songs">
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                    <div class="songimg"><img src="./images/Mahiye-Jinna-Sohna.jpg" alt=""> <div class="shadow4"><i class="fa-solid fa-play"></i></div></div>
+                    <div class="songtitle"><p>Mahiye Jinna Sohna</p> <p>Darshan Raval</p></div>
+                  </div>
+                  <i class="fa-regular fa-heart"></i>
+                </li>
+                <li>
+                  <div class="songs">
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                    <div class="songimg"><img src="./images/man-meri-jaan.jpg" alt=""> <div class="shadow4"><i class="fa-solid fa-play"></i></div></div>
+                    <div class="songtitle"><p>Man meri jaan</p> <p>King</p></div>
+                  </div>
+                  <i class="fa-regular fa-heart"></i>
+                </li>
+                <li>
+                  <div class="songs">
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                    <div class="songimg"><img src="./images/OMG-2.jpg" alt=""> <div class="shadow4"><i class="fa-solid fa-play"></i></div></div>
+                    <div class="songtitle"><p>OMG-2</p> <p>Hansraj Raghuwanshi</p></div>
+                  </div>
+                  <i class="fa-regular fa-heart"></i>
+                </li>
+                <li>
+                  <div class="songs">
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                    <div class="songimg"><img src="./images/onism.jpg" alt=""> <div class="shadow4"><i class="fa-solid fa-play"></i></div></div>
+                    <div class="songtitle"><p>Onism</p> <p>Alan Walker</p></div>
+                  </div>
+                  <i class="fa-regular fa-heart"></i>
+                </li>
+                <li>
+                  <div class="songs">
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                    <div class="songimg"><img src="./images/perfect.jpg" alt=""> <div class="shadow4"><i class="fa-solid fa-play"></i></div></div>
+                    <div class="songtitle"><p>Perfect</p> <p>Ed Sheeran</p></div>
+                  </div>
+                  <i class="fa-regular fa-heart"></i>
+                </li>
+              </ul>
+           
+            </div>
+    </div>
+  </aside>
+</div>
+
+
+
+<!-- footer section  -->
+  <footer>
+    <div class="footer-1 d-flex">
+      <img src="./images/Intentions.jpg" alt="Intentions">
+      <div class="h-i ">
+        <h5>Intentions <i class="fa-regular fa-heart"></i> <i class="fa-solid fa-ban"></i></h5> <span>Justin
+          Bieber</span>
+      </div>
+
+    </div>
+    <div class="footer-2 d-flex">
+      <div class="footer-play d-flex">
+        <i class="fa-solid fa-shuffle"></i>
+        <i class="fa-solid fa-backward-step"></i>
+        <i class="fa-regular fa-circle-pause"></i>
+        <i class="fa-solid fa-forward-step"></i>
+        <i class="fa-solid fa-rotate-right"></i>
+      </div>
+      <div class="range d-flex">
+        <span>0.00</span>
+        <input type="range" id="songRange" name="vol" min="0" max="50"></span>
+        <span>5:12</span>
+      </div>
+    </div>
+
+    <div class="footer-3 d-flex">
+      <span><i class="fa-solid fa-list-ul"></i></span>
+      <span><i class="fa-solid fa-laptop"></i></span>
+      <span><label for="vol"><i class="fa-solid fa-volume-high"></i></label>
+        <input type="range" id="vol" name="vol" min="0" max="100"></span>
+      <span><i class="fa-solid fa-expand"></i></span>
+
+    </div>
+  </footer>
+</body>
+
+</html>
